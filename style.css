@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Nav Section */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin-right: 3rem;
+}
+
+/* Heros Section */
+.hero1{
+    background-image: url("./construction-worker-g3e8079f62_1920.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+    color: white;
+}
+h2{
+ font-size: 100px;  
+ color:white;
+}
+.btn1{
+background-color: black;
+color: white;
+padding: 4rem;
+width: 12rem;
+}
+.lower{
+    margin-bottom: 20rem;
+}
+
+.mymargin{
+    margin-top: 4rem;
+}
